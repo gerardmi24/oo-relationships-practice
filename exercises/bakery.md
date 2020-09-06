@@ -17,7 +17,7 @@ Create the necessary methods to connect these classes.  **You should do all the 
 
 #### Bakery
 
-- #ingredients
+<!-- - #ingredients
   - should return an array of ingredient objects for the bakery's desserts
 - #desserts
   - should return an array of dessert objects the bakery makes
@@ -26,24 +26,24 @@ Create the necessary methods to connect these classes.  **You should do all the 
 - .all
   - should return an array of all bakeries
 - #shopping_list
-  - should return a string of names for ingredients for the bakery
+  - should return a string of names for ingredients for the bakery -->
 
 #### Desserts
 
-- #ingredients
-  - should return an array of `Ingredient` objects for the dessert
-- #bakery
-  - should return the `Bakery` object for the dessert
-- #calories
-  - should return a float totaling all the calories for all the ingredients included in that dessert
-- .all
-  - should return an array of all dessert objects
+<!-- - #ingredients
+  - should return an array of `Ingredient` objects for the dessert -->
+<!-- - #bakery
+  - should return the `Bakery` object for the dessert -->
+<!-- - #calories
+  - should return a float totaling all the calories for all the ingredients included in that dessert -->
+<!-- - .all
+  - should return an array of all dessert objects -->
 
 #### Ingredients
 
-- #dessert
-  - should return an array of all dessert objects that use this ingredient
-- #bakeries
+<!-- - #dessert
+  - should return an array of all dessert objects that use this ingredient -->
+<!-- - #bakeries
   - should return the bakery objects for the bakeries that use that ingredient
 - .all
   - should return an array of all ingredients
@@ -53,4 +53,4 @@ Create the necessary methods to connect these classes.  **You should do all the 
     - .find_all_by_name('chocolate') might return ['chocolate sprinkles',
       'chocolate mousse', 'chocolate']
     - make sure you aren't just looking for exact matches (like 'chocolate' ==
-      'chocolate')
+      'chocolate') -->
