@@ -34,6 +34,7 @@ steve = Guests.new("Steve", 28)
 brandy = Guests.new("Brandy", 34)
 belle = Guests.new("Belle", 41)
 dan = Guests.new("Dan", 46)
+#tim = Guests.new("Timmy", 49)
 timmy = Guests.new("Timmy", 30)
 
 vaca1 = Trips.new("Business", app1, belle)

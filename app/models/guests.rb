@@ -30,7 +30,7 @@ class Guests
     end
 
     def self.find_all_by_name(name)
-
+        self.all.select{|who| who.name == name}
     end
 
 end
