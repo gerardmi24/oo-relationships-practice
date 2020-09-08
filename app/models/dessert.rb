@@ -22,9 +22,9 @@ class Dessert
     end
 
     def calories
-        cal_sum = self.ingredients.map{|cals| cals.calorie_count}.sum 
+        cal_sum == self.ingredients.map{|cals| cals.calorie_count}.sum 
 
-        if cal_sum = 0
+        if cal_sum == 0
            return nil
         end 
 

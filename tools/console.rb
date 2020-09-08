@@ -24,6 +24,7 @@ food1 = DessertIngredient.new(muffin, flour)
 food2= DessertIngredient.new(cookie, icing)
 food3 = DessertIngredient.new(donut, jelly)
 
+
 house1 = Listings.new("Seattle", "3 bed 2 bath house", 425000)
 house2 = Listings.new("Cleveland", "4 bed 1.5 bath house", 375000)
 house3 = Listings.new("Cali", "4 bed, 3 bath mansion", 860000)
@@ -44,5 +45,30 @@ vaca4 = Trips.new("Family vaca", house1, timmy)
 vaca5 = Trips.new("Work conference", house2, brandy)
 vaca6 = Trips.new("School vaca", house3, belle)
 vaca7 = Trips.new("Fun", house3, dan)
+
+
+ben = Passengers.new("Ben", 21)
+tom = Passengers.new("Tom", 18)
+jill = Passengers.new("Jill", 16)
+adam = Passengers.new("Adam", 23)
+kate = Passengers.new("Kate", 24)
+jim = Passengers.new("Jim", 17)
+
+brett = Drivers.new("Brett", 7)
+cindy = Drivers.new("Cindy", 3)
+garrett = Drivers.new("Garrett", 1)
+jane = Drivers.new("Jane", 5)
+
+gym = Rides.new("Gym", 8.3, ben, brett)
+gym = Rides.new("Gym", 6.2, jill, cindy)
+store = Rides.new("Store", 11.6, ben, cindy)
+store = Rides.new("Store", 4.7, adam, garrett)
+movies = Rides.new("Movies", 7.1, kate, garrett)
+home = Rides.new("Home", 9.9, tom, brett)
+beach = Rides.new("Beach", 5.8, kate, jane)
+gym = Rides.new("Gym", 1.9, adam, cindy)
+airport = Rides.new("Airport", 96, adam, cindy)
+airport = Rides.new("Airport", 88.8, kate, brett)
+
 
 binding.pry

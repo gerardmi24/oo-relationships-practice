@@ -33,10 +33,7 @@ def total_calories
 end
 
 def average_calories # *** !!
-
-        self.desserts.sum{|dessert| dessert.calories} / self.desserts.length.to_f
-        # Ashab's Blessings ^
-
+        self.desserts.map{|dessert| dessert.calories}.sum / self.desserts.length.to_f
 
     # total_calories
     # self.desserts.map{||}
@@ -44,8 +41,6 @@ def average_calories # *** !!
     # self.desserts.map{|ing| ing.calorie_count}.sum / desserts.length
     #self.ingredients.sum{|ingredient| ingredient.calorie_count} / self.ingredients.length
 end
-
-
 
 
 # - #shopping_list
