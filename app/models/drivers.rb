@@ -20,11 +20,6 @@ class Drivers
     def passengers
         self.rides.map {|driv| driv.passenger}
     end
-
-   # def self.mileage_cap(distance)
-    #    self.all.select {|trip| trip.distance > distance}
-        
-    #end
     
     def total_distance
         self.rides.sum {|miles| miles.distance}

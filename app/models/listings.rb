@@ -30,9 +30,12 @@ class Listings
         self.all.select{|list| list.city == city}
     end
 
-#    def self.most_popular
+#   def self.most_popular
 #should return house3 "Cali"
 #        self.all.find{|list| list.trip_count}
+#   end
+#    def self.most_popular
+#        self.all.max_by {|list| list.city}
 #    end
 
 end
